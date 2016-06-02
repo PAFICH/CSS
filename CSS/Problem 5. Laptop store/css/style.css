@@ -1,0 +1,94 @@
+main {
+    box-sizing: border-box;
+    width: 1068px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 15px;
+}
+
+header {
+    text-align: center;
+}
+
+a {
+    color: #04B0F0;
+    font-size: 1.5em;
+}
+
+hr {
+    width: 95%;
+    height: 2px;
+    background-color: black;
+}
+
+section {
+    width: 683px;
+    border: 2px solid;
+    padding: 5px;
+}
+
+fieldset {
+    width: 325px;
+    border: 2px solid;
+    padding-left: 5px;
+    padding-top: 0;
+    padding-right: 0px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+legend {
+    margin-left: 16%;
+}
+
+img {
+    width: 167px;
+    height: auto;
+    float: left;
+}
+
+span.Block {
+    display: block;
+    margin-bottom: 20px;
+    width: 144px;
+    text-align: left;
+    padding-left: 166px;
+}
+
+span:first-of-type {
+    margin-top: 50px;
+}
+
+span.Inline-Block {
+    display: inline-block;
+    padding: 0px;
+    margin-left: 8px;
+    margin-bottom: 0;
+}
+
+section div {
+    display: inline-block;
+}
+
+aside {
+     float: right;
+     font-size: 1.5em;
+     margin-right: 30px;
+     margin-top: 90px;
+}
+
+input[type=range] {
+    width: 244px;
+    margin-left: 14px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+aside div {
+    padding-bottom: 20px;
+}

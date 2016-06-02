@@ -1,0 +1,25 @@
+#Main {
+    width: 110px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.DropDownMenu {
+    display: inline-block;
+}
+
+.DropDownContent {
+    display: none;
+    padding-left: 10px;
+    color: #888;
+}
+
+.DropDownMenu:hover .DropDownContent {
+    display: block;
+    text-decoration: none;
+}
+
+.DropDownMenu:hover span {
+    text-decoration: underline;
+    cursor: pointer;
+}

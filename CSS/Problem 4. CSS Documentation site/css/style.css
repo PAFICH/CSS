@@ -1,0 +1,159 @@
+div#Main {
+    width: 787px;
+    background-color: #F1F1F1;
+    font-size: 12px;
+    border: 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img#House {
+    width: 13px;
+    height: 13px;
+}
+
+span {
+    font-weight: bold;
+}
+
+div#Left {
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 2px;
+}
+
+div#Left div {
+    margin-top: 10px;
+}
+
+div#Left a:first-child {
+    font-weight: bold;
+}
+
+div#Left a {
+    display: block;
+    text-decoration: none
+}
+
+div#Center {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px groove;
+    width: 493px;
+    height: 560px;
+    background-color: white;
+    margin: 2px;
+    margin-left: 20px;
+    margin-right: 0;
+    padding: 2px;
+    
+}
+
+div#Right {
+    display: inline-block;
+    vertical-align: top;
+    width: 143px;
+    margin: 2px;
+    margin-left: 0;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+div#Center button {
+    width: 100px;
+    height: 22px;
+    background-color: white;
+    border: 1px solid;
+}
+
+button#One span {
+    margin-left: -22px;
+    margin-right: 15px;
+}
+
+button#Two span {
+    margin-left: 26px;
+    margin-right: -27px;
+}
+
+span.RectText {
+    display: block;
+    color: white;
+    font-size: 1.1em;
+    background-color: #808080;
+    padding: 1px;
+    padding-left: 2px;
+}
+
+img#Logo {
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+div.Rectangular.Bold {
+    margin-bottom: 20px;
+}
+
+div.Rectangular {
+    margin-bottom: 10px;
+}
+
+.Bold p {
+    font-weight: bold;
+}
+
+a {
+    color: black;
+}
+
+div#Right input#FirstButton {
+    width: 92px;
+}
+
+div#Right input#SecondButton {
+    width: 25px;
+    border-radius: 2px;
+    border: 1px solid;
+    background-color: white;
+    font-weight: bold;
+}
+
+div#Right input#ThirdButton {
+    width: 100px;
+    height: 30px;
+    margin: 3px;
+}
+
+div#Right input#ThirdButton:hover {
+    background-color: rgba(212, 240, 255, 0.9);
+}
+
+div#Right span {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+div#Right div.First {
+    background-color: white;
+    border: 1px groove;
+    margin-bottom: 1px;
+    padding-bottom: 6px;
+}
+
+div#Right button {
+    margin-left: 18px;
+    height: 30px;
+}
+
+div#Right a,
+div.MoveButtons {
+    display: block;
+    text-align: center;
+}
+
+div.Second {
+    padding-top: 3px;
+}
